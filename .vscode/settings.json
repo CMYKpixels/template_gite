@@ -1,0 +1,8 @@
+{
+  "terminal.integrated.automationShell.linux": "",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
+  "terminal.integrated.fontFamily": "Hasklug Nerd Font Mono",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontWeight": "200",
+  "terminal.integrated.fontWeightBold": "800"
+}

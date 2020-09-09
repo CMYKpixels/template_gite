@@ -1,0 +1,1007 @@
+/*Desktop*/ 
+@media only screen and (max-width: 1024px)
+{
+  h2,
+h3 {
+  font-family: "Eczar";
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(0, 87, 155);
+  text-shadow: 0 1px 0.94px rgba(0, 0, 0, 0.24), 0 0 1.96px rgba(0, 0, 0, 0.16);
+}
+
+h4 {
+  font-family: "Work Sans";
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+  nav {
+    background: rgb(33, 33, 33);
+    background: rgba(0, 0, 0, 0.15);
+  }
+  #calendar {
+    margin-top: 7rem;
+  }
+  #services {
+    margin-top: 13.5rem;
+  }
+  #options {
+    margin-top: 10rem;
+  }
+
+  .widgetTitle {
+    font-size: 2.25rem;
+    margin: -5rem 0 0 0;
+  }
+
+  .widgetInput,
+  .input-group >.form-control {
+    margin-right: 0.5rem;
+    width: 8rem;
+    height: 3.75rem;
+  }
+
+  .asterisque{
+    font-size: 11px;
+  }
+
+  .whiteTitle {
+    font-size: 1.2rem;
+    line-height: 1rem;
+  }
+
+  .whiteText {
+    font-size: 0.55rem;
+    line-height: 0.65rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .textColumn {
+    padding: 2rem 2rem 1rem 2rem;
+    font-size: 10px;
+  }
+
+  .incentiveText {
+    font-size: 0.75rem;
+  }
+  .incentiveText h3 {
+    font-size: 1.5rem;
+  }
+
+  .purpleButton {
+    font-size: 1.15rem;
+    border: solid 2.5px transparent;
+    padding: 0.85rem 3.25rem;
+    letter-spacing: 0.05;
+  }
+
+  .purpleButton:hover {
+    font-size: 1.15rem;
+    border: solid 2.5px transparent;
+    padding: 0.85rem 3.25rem;
+    letter-spacing: 0;
+  }
+
+  .slide_viewer {
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .slide {
+    height: auto;
+    bottom: 0;
+  }
+
+  .titleRcol {
+    position: relative;
+    top: -72vh;
+  }
+
+  .widgetButton {
+    margin: 0.5rem 0 1rem 0 !important;
+    padding: 0.85rem 1.25rem;
+  }
+
+  .previous_btn,
+  .next_btn {
+    transform: scale(0.85);
+  }
+
+  #gallery > .row {
+    flex-flow: column nowrap;
+  }
+
+  .incentive {
+    margin-top: -8rem;
+  }
+
+  .incentive > .svg-container {
+    transform: scale(0.8);
+  }
+
+  .incentiveButton {
+    margin-top: -3rem;
+  }
+
+  .incentiveText p{
+    font-size: 1rem;
+  }
+
+  .incentiveText h3{
+    font-size: 2rem;
+  }
+
+  #calendar {
+    margin-top: 15rem;
+  }
+
+  .optionPrice {
+    width: 7.25rem;
+    height: 7.25rem;
+    border-radius: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .services .col {
+    padding-left: 8rem;
+  }
+
+  .services li {
+    font-size: 0.95rem;
+  }
+
+  .price {
+    padding-top: 0.75rem;
+    font-size: 3.5rem;
+  }
+
+  .optionLabel {
+    font-size: 2.5rem;
+    margin: 2rem 0 6.75rem 0;
+  }
+
+  .optionShape{
+    transform: scale(1.3);
+  }
+
+  .newsRightCol {
+    padding: 2rem 3.5rem 0 3.5rem;
+  }
+
+  .blog {
+    font-size: 12px;
+  }
+
+  .blogButton {
+    padding-top: 2rem;
+  }
+
+  #news{
+    margin: 8rem auto;
+  }
+}
+
+/*Desktop@1024*/ 
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  h2,
+h3 {
+  font-family: "Eczar";
+  font-size: 0.45rem;
+  font-weight: bold;
+  color: rgb(0, 87, 155);
+  text-shadow: 0 1px 0.94px rgba(0, 0, 0, 0.24), 0 0 1.96px rgba(0, 0, 0, 0.16);
+}
+
+h4 {
+  font-family: "Work Sans";
+  font-size: 0.55rem;
+  font-weight: 500;
+}
+
+  nav {
+    background: rgb(33, 33, 33);
+    background: rgba(0, 0, 0, 0.15);
+  }
+  #calendar {
+    margin-top: 7rem;
+  }
+  #services {
+    margin-top: 13.5rem;
+  }
+  #options {
+    margin-top: 10rem;
+  }
+
+  .widgetTitle {
+    font-size: 2.25rem;
+    margin: -5rem 0 0 0;
+  }
+
+  .widgetInput,
+  .input-group >.form-control {
+    margin-right: 0.5rem;
+    width: 8rem;
+    height: 3.75rem;
+  }
+
+  .whiteTitle {
+    font-size: 1.2rem;
+    line-height: 1rem;
+  }
+
+  .whiteText {
+    font-size: 0.75rem;
+    line-height: 0.8rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .textColumn {
+    padding: 2rem 2rem 1rem 2rem;
+    font-size: 12px;
+  }
+
+  .incentiveText {
+    font-size: 0.75rem;
+  }
+  .incentiveText h3 {
+    font-size: 1.5rem;
+  }
+
+  .purpleButton {
+    font-size: 1.15rem;
+    border: solid 2.5px transparent;
+    padding: 0.85rem 3.25rem;
+    letter-spacing: 0.05;
+  }
+
+  .purpleButton:hover {
+    font-size: 1.15rem;
+    border: solid 2.5px transparent;
+    padding: 0.85rem 3.25rem;
+    letter-spacing: 0;
+  }
+
+  .slide_viewer {
+    height: 65vh;
+  }
+
+  .previous_btn,
+  .next_btn {
+    transform: scale(0.85);
+  }
+
+  .incentive {
+    margin-top: 4.25rem;
+  }
+
+  .optionPrice {
+    width: 7.25rem;
+    height: 7.25rem;
+    border-radius: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .services .col {
+    padding-left: 8rem;
+  }
+
+  .services li {
+    font-size: 0.95rem;
+  }
+
+  .price {
+    padding-top: 0.75rem;
+    font-size: 3.5rem;
+  }
+
+  .optionLabel {
+    font-size: 2.5rem;
+    margin: 2rem 0 6.75rem 0;
+  }
+
+  .newsRightCol {
+    padding: 2rem 3.5rem 0 3.5rem;
+  }
+
+  .blog {
+    font-size: 12px;
+  }
+
+  .blogButton {
+    padding-top: 2rem;
+  }
+}
+
+/* iPad pro 10" Landscape */
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  p {
+    font-size: 0.8rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  .purpleButton {
+    font-size: 1.15rem;
+    border: solid 2.5px transparent;
+    padding: 0.85rem 3.25rem;
+    letter-spacing: 0.05;
+  }
+
+  .purpleButton:hover {
+    font-size: 1.15rem;
+    border: solid 2.5px transparent;
+    padding: 0.85rem 3.25rem;
+    letter-spacing: 0;
+  }
+
+  .previous_btn,
+  .next_btn {
+    transform: scale(0.95);
+  }
+
+  #wrapHome {
+    background-size: cover;
+    background-position: top center;
+  }
+
+  #gallery {
+    margin-top: 10rem;
+  }
+
+  nav {
+    background: rgb(33, 33, 33);
+    background: rgba(0, 0, 0, 0.15);
+  }
+
+  .navElement {
+    margin: 0.5rem auto !important;
+  }
+
+  .dropdownContent {
+    display: none;
+  }
+
+  .widgetTitle {
+    font-size: 2.25rem;
+    margin: -5rem 0 2.1rem 0;
+  }
+
+  .widgetInput {
+    margin-right: 0.5rem;
+    width: 10rem;
+  }
+
+  .widgetBE {
+    margin: -17.5rem 0 4.5rem 0;
+  }
+
+  .plan {
+    height: 70vh;
+  }
+
+  .whiteTitle {
+    font-size: 1.2rem;
+    line-height: 1rem;
+  }
+
+  .whiteText {
+    font-size: 0.75rem;
+    line-height: 0.8rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .textColumn {
+    padding: 2.5rem 2.5rem 2rem 2.5rem;
+  }
+
+  .incentive {
+    margin-top: 5rem;
+  }
+
+  .incentiveText {
+    font-size: 0.75rem;
+  }
+
+  .incentiveText h3 {
+    font-size: 1.5rem;
+  }
+
+  .slide_viewer {
+    height: 65vh;
+  }
+  #services {
+    margin-top: 12.5rem;
+  }
+
+  #calendar,
+  #options {
+    margin-top: 7rem;
+  }
+
+  .optionPrice {
+    width: 7.25rem;
+    height: 7.25rem;
+    border-radius: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .price {
+    padding-top: 0.75rem;
+    font-size: 3.5rem;
+  }
+
+  .optionLabel {
+    font-size: 2.5rem;
+    margin: 2rem 0 6.75rem 0;
+  }
+}
+
+/* iPad pro 13" Landscape */
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .widgetTitle {
+    font-size: 3rem;
+    margin: -6rem 0 2.1rem 0;
+  }
+
+  .widgetBE {
+    margin: -31rem 0 12rem 0;
+  }
+
+  nav {
+    background: rgb(33, 33, 33);
+    background: rgba(0, 0, 0, 0.15);
+  }
+
+  .navElement {
+    margin: 0.5rem auto !important;
+  }
+
+  .dropdownContent {
+    display: none;
+  }
+
+  .plan {
+    height: 60vh;
+  }
+
+  .plan img {
+    object-fit: cover;
+  }
+
+  .slide_viewer {
+    height: 60vh;
+  }
+
+  .optionPrice {
+    width: 8.5rem;
+    height: 8.5rem;
+    border-radius: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .price {
+    font-size: 4rem;
+  }
+}
+
+/* iPad pro 10" Portrait */
+@media only screen and (min-device-height: 1112px) and (max-device-height: 1112px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  nav {
+    background: rgb(33, 33, 33);
+    background: rgba(0, 0, 0, 0.15);
+  }
+  #welcome {
+    margin-top: 5rem;
+    max-height: 100vh;
+    overflow: hidden;
+  }
+
+  .headerWidget {
+    margin-top: -40rem;
+    display: flex;
+    height: 40vh;
+  }
+
+  div.backgroundShape {
+    display: none;
+  }
+
+  .widgetTitle {
+    font-size: 2.5rem;
+    font-family: "Eczar";
+    font-weight: bold;
+    margin: -5rem 0 1.7rem 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1px 0.94px rgba(0, 0, 0, 0.24),
+      0 0 1.96px rgba(0, 0, 0, 0.16);
+  }
+
+  .widgetBE {
+    margin: -12rem auto 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("/src/img/SVG/lavender/shape__widget_portrait@2x.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40vw;
+    height: 50vh;
+  }
+
+  .BEform {
+    padding-top: 8rem;
+    width: 30vw;
+  }
+
+  .form-row {
+    flex-flow: column nowrap;
+  }
+  .form-row .col-auto {
+    margin: 0.5rem 0 0 0 !important;
+  }
+
+  .widgetInput {
+    width: 18.75rem;
+  }
+
+  .slide_viewer {
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .slide {
+    height: auto;
+    bottom: 0;
+  }
+
+  .titleRcol {
+    position: relative;
+    top: -67vh;
+  }
+
+  .form-row > .col-auto {
+    margin: 0.2rem 0;
+  }
+
+  .widgetButton {
+    margin: 0.5rem 0 1rem 0 !important;
+  }
+
+  .mapSection {
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+
+  .plan {
+    width: 100vw;
+    display: flex;
+  }
+
+  .plan img {
+    object-fit: cover;
+    object-position: center;
+  }
+  .welcomeRighttCol {
+    width: 100vw;
+    margin: 0 auto;
+  }
+  .welcomeLeftCol {
+    max-height: 50%;
+    margin: 0 auto;
+  }
+  .addressCard {
+    width: 50vw;
+    margin: 0 auto;
+    max-height: 25%;
+  }
+  .addressBlockContent {
+    position: relative;
+    bottom: 10rem;
+  }
+  .textColumn {
+    margin: auto 12rem;
+  }
+
+  .whiteTitle {
+    font-size: 1.25rem;
+    line-height: 1.2rem;
+  }
+  .whiteText {
+    font-size: 0.8rem;
+  }
+
+  #gallery > .row {
+    flex-flow: column nowrap;
+  }
+
+  .incentive {
+    margin-top: -8rem;
+  }
+
+  .incentive > .svg-container {
+    transform: scale(0.8);
+  }
+  .incentiveButton {
+    margin-top: 0;
+  }
+
+  #calendar {
+    margin-top: 15rem;
+  }
+
+  .optionLeftCol {
+    margin: 0;
+    padding: 0;
+  }
+
+  .optionShape {
+    transform: scale(1.25);
+  }
+
+  .newsRightCol {
+    padding: 1.5rem 2rem;
+  }
+
+  .blogButton {
+    padding-top: 2.5rem;
+  }
+
+  #contact > .row {
+    flex-flow: column nowrap;
+  }
+
+  .contactInfos {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+}
+
+/* iPad pro 13" Portrait */
+@media only screen and (min-device-height: 1366px) and (max-device-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  nav {
+    background: rgb(33, 33, 33);
+    background: rgba(0, 0, 0, 0.15);
+  }
+  #welcome {
+    margin-top: 7rem;
+  }
+
+  .headerWidget {
+    margin-top: -40rem;
+    display: flex;
+    height: 40vh;
+  }
+
+  div.backgroundShape {
+    display: none;
+  }
+
+  .widgetTitle {
+    font-size: 2.8rem;
+    font-family: "Eczar";
+    font-weight: bold;
+    margin: -5rem 0 2.1rem 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1px 0.94px rgba(0, 0, 0, 0.24),
+      0 0 1.96px rgba(0, 0, 0, 0.16);
+  }
+
+  .widgetBE {
+    margin: -12rem auto 0 auto;
+    display: flex;
+
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("/src/img/SVG/shape__widget_portrait@2x.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40vw;
+    height: 50vh;
+  }
+
+  .BEform {
+    padding-top: 8rem;
+    width: 30vw;
+  }
+
+  .form-row {
+    flex-flow: column nowrap;
+  }
+  .form-row .col-auto {
+    margin: 0.5rem 0;
+  }
+
+  .widgetInput {
+    width: 18.75rem;
+  }
+
+  .asterisque {
+    margin-top: 3rem;
+  }
+
+  .slide_viewer {
+    height: 35vh;
+  }
+
+  #welcome {
+    max-height: 100vh;
+  }
+
+  .mapSection {
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+
+  .plan {
+    width: 100vw;
+    display: flex;
+  }
+
+  .plan img {
+    object-fit: cover;
+    object-position: center;
+  }
+  .welcomeRighttCol {
+    width: 100vw;
+    margin: 0 auto;
+  }
+  .welcomeLeftCol {
+    max-height: 50%;
+    margin: 0 auto;
+  }
+  .addressCard {
+    width: 50vw;
+    margin: 0 auto;
+    max-height: 40%;
+  }
+  .addressBlockContent {
+    position: relative;
+    bottom: 10.55rem;
+  }
+  .textColumn {
+    margin: auto 12rem;
+  }
+}
+
+/* Smartphone Portrait */
+@media only screen and (min-device-height: 360px) and (max-device-height: 740px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 4) {
+  nav {
+    background: rgb(33, 33, 33);
+    background: rgba(0, 0, 0, 0.15);
+  }
+
+  .navbar {
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    font-size: 3rem;
+  }
+
+  .navbar-nav li {
+    margin-top: 2rem;
+  }
+
+  .nav-link {
+    width: auto;
+  }
+
+  .nav-link {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #welcome {
+    margin-top: 5rem;
+    max-height: 100vh;
+    overflow: hidden;
+  }
+
+  .backgroundShape {
+    display: none;
+  }
+
+  .svg-container {
+    overflow: hidden;
+    filter: drop-shadow(0 16px 24px rgba(0, 0, 0, 0.14))
+      drop-shadow(0 9px 46px rgba(0, 0, 0, 0.12))
+      drop-shadow(0 11px 15px rgba(0, 0, 0, 0.2));
+    width: 75%;
+  }
+
+  .widgetTitle {
+    font-size: 2.5rem;
+    font-family: "Eczar";
+    font-weight: bold;
+    margin: -5rem 0 1.7rem 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1px 0.94px rgba(0, 0, 0, 0.24),
+      0 0 1.96px rgba(0, 0, 0, 0.16);
+  }
+
+
+  .headerWidget {
+    position: relatve;
+    height: 1180px;
+    width: 870px;
+    margin: -75rem auto 0 auto;
+    background-image: url("/src/img/SVG/winter/shape__widget_portrait.svg");
+    background-repeat: no-repeat;
+    fill: url(#winter);
+    background-size: cover;
+    filter: drop-shadow(0 16px 24px rgba(0, 0, 0, 0.14))
+      drop-shadow(0 9px 46px rgba(0, 0, 0, 0.12))
+      drop-shadow(0 11px 15px rgba(0, 0, 0, 0.2));
+  }
+
+  .widgetBE{
+    position: relative;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: block;
+    width: 50vw;
+  }
+
+  .BEform{
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .widgetBackground{
+    display: none;
+  }
+
+  .form-row {
+    flex-flow: column nowrap;
+  }
+
+  /*.BEform {
+    padding-top: 8rem;
+    width: 30vw;
+  }
+
+  .form-row .col-auto {
+    margin: 0.5rem 0 0 0 !important;
+  }
+
+  .widgetInput {
+    width: 18.75rem;
+  }*/
+
+  .slide_viewer {
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .slide {
+    height: auto;
+    bottom: 0;
+  }
+  .titleRcol {
+    position: relative;
+    top: -67vh;
+  }
+
+  .form-row > .col-auto {
+    margin: 0.2rem 0;
+  }
+  .widgetButton {
+    margin: 0.5rem 0 1rem 0 !important;
+  }
+
+  .mapSection {
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+
+  .plan {
+    width: 100vw;
+    display: flex;
+  }
+
+  .plan img {
+    object-fit: cover;
+    object-position: center;
+  }
+  .welcomeRighttCol {
+    width: 100vw;
+    margin: 0 auto;
+  }
+  .welcomeLeftCol {
+    max-height: 50%;
+    margin: 0 auto;
+  }
+  .addressCard {
+    width: 50vw;
+    margin: 0 auto;
+    max-height: 25%;
+  }
+  .addressBlockContent {
+    position: relative;
+    bottom: 10rem;
+  }
+  .textColumn {
+    margin: auto 12rem;
+  }
+
+  .whiteTitle {
+    font-size: 1.25rem;
+    line-height: 1.2rem;
+  }
+  .whiteText {
+    font-size: 0.8rem;
+  }
+
+  #gallery > .row {
+    flex-flow: column nowrap;
+  }
+
+  .incentive {
+    margin-top: -8rem;
+  }
+
+  .incentive > .svg-container {
+    transform: scale(0.8);
+  }
+  .incentiveButton {
+    margin-top: 0;
+  }
+
+  #calendar {
+    margin-top: 15rem;
+  }
+
+  .optionLeftCol {
+    margin: 0;
+    padding: 0;
+  }
+
+  .optionShape {
+    transform: scale(1.25);
+  }
+
+  .newsRightCol {
+    padding: 1.5rem 2rem;
+  }
+
+  .blogButton {
+    padding-top: 2.5rem;
+  }
+
+  #contact > .row {
+    flex-flow: column nowrap;
+  }
+
+  .contactInfos {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+}

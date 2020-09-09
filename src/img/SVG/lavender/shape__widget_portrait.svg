@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="434" height="589" viewBox="0 0 434 589">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="423.211" y1="589" x2="10.789" gradientUnits="userSpaceOnUse">
+      <stop offset="-0.175" stop-color="#9929ea"/>
+      <stop offset="1.175" stop-color="#5808fb"/>
+    </linearGradient>
+  </defs>
+  <rect id="BKG_widget" class="cls-1" width="434" height="589" rx="25" ry="25"/>
+</svg>
