@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="/src/css/desktop.css">
     <link rel="stylesheet" href="/src/css/ipad_portrait.css">
     <link rel="stylesheet" href="/src/css/ipad_landscape.css">
-    <link rel="stylesheet" href="/src/css/mediaqueries.css" />
+    <!--<link rel="stylesheet" href="/src/css/mediaqueries.css" />-->
   </head>
 
   <body>
@@ -31,7 +31,7 @@
     <header class="header">
       <div class="gradient">
         <nav
-          class="navbar justify-content-center navbar-expand-xl navbar-dark"
+          class="navbar justify-content-center navbar-expand-lg navbar-dark"
           data-toggle="affix"
         >
           <div class="row justify-content-center">
@@ -124,8 +124,8 @@
         <div class="BEform">
           <form>
             <h2 class="widgetTitle">Réservez votre séjour :</h2>
-            <div class="form-row align-items-center">
-              <div class="col-auto">
+            <div class="form-row">
+              <div class="col-auto form-group">
                 <div class="input-group mb-2">
                   <div class="input-group-prepend">
                     <div class="input-group-text">
@@ -140,18 +140,18 @@
                   />
                 </div>
               </div>
-              <div class="col-auto">
-                <select class="widgetInput input custom-select custom-select-lg mb-2">
+              <div class="col-auto form-group">
+                <select class="widgetInput form-control custom-select mb-2">
                   <option selected>1 nuit(s)</option>
                   <option value="1">2 nuit(s</option>
                   <option value="2">3 nuit(s</option>
                   <option value="3">4 nuit(s</option>
                 </select>
               </div>
-              <div class="col-auto">
+              <div class="col-auto widgetBtnContainer form-group">
                 <button
                   type="submit"
-                  class="btn widgetButton tealButton btn-lg mb-2"
+                  class="btn widgetButton tealButton mb-2"
                 >
                   chercher
                 </button>

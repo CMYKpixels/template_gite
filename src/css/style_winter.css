@@ -20,12 +20,6 @@ body {
   padding: 0;
 }
 
-/*.backgroundShape{  
-  background-repeat: no-repeat;
-  background-image: url('/src/img/SVG/winter/widgetBackground.svg');
-  background-size: cover;
-}
-*/
 .primary {
   fill: rgb(66, 165, 245);
 }
@@ -81,8 +75,9 @@ svg {
 
 .svgShape {
   fill: url(#winter);
-  /*filter: drop-shadow(0px 1px 3px rgba(0,0,0, 0.75));*/
-}
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.14))
+  drop-shadow(0 9px 4px rgba(0, 0, 0, 0.12))
+  drop-shadow(0 3px 5px rgba(0, 0, 0, 0.2));}
 
 .nowrap {
   flex-wrap: nowrap;
@@ -95,7 +90,7 @@ svg {
 h2,
 h3 {
   font-family: "Eczar";
-  font-size: 3rem;
+  font-size:3rem;
   font-weight: bold;
   color: rgb(0, 87, 155);
   text-shadow: 0 1px 0.94px rgba(0, 0, 0, 0.24), 0 0 1.96px rgba(0, 0, 0, 0.16);

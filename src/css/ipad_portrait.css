@@ -12,7 +12,7 @@
     }
   
     .headerWidget {
-      margin-top: -40rem;
+      /*margin-top: -40rem;*/
       display: flex;
       height: 40vh;
     }
@@ -74,14 +74,6 @@
     .titleRcol {
       position: relative;
       top: -67vh;
-    }
-  
-    .form-row > .col-auto {
-      margin: 0.2rem 0;
-    }
-  
-    .widgetButton {
-      margin: 0.5rem 0 1rem 0 !important;
     }
   
     .mapSection {
@@ -194,7 +186,7 @@
     }
   
     .headerWidget {
-      margin-top: -40rem;
+      /*margin-top: -40rem;*/
       display: flex;
       height: 40vh;
     }

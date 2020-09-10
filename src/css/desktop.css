@@ -32,6 +32,10 @@
     #options {
       margin-top: 10rem;
     }
+
+    .headerWidget{
+      height: 100vh;
+    }
   
     .widgetTitle {
       font-size: 2.25rem;
@@ -327,3 +331,185 @@
     }
   }
   
+
+  /*@media only screen and (max-width : 1024px){
+    nav {
+      background: rgb(33, 33, 33);
+      background: rgba(0, 0, 0, 0.15);
+    }
+  
+    #welcome {
+      margin-top: 5rem;
+      max-height: 100vh;
+      overflow: hidden;
+    }
+  
+    .headerWidget {
+      position: absolute;
+      top: 0;
+      margin: 35vh auto;
+      height: 60vh;
+    }
+  
+    div.backgroundShape {
+      display: none;
+    }
+  
+    .widgetTitle {
+      font-size: 42px;
+      margin-bottom: 20px;
+      font-family: "Eczar";
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+      text-shadow: 0 1px 0.94px rgba(0, 0, 0, 0.24),
+        0 0 1.96px rgba(0, 0, 0, 0.16);
+    }
+
+    .widgetButton{
+      position: absolute;
+      margin: 2vh auto;
+      font-size: 2vh;
+    }
+
+    .widgetBE {
+      position: relative;
+      margin: 0 auto;
+      background-image: url("/src/img/SVG/winter/shape__widget_portrait.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      min-width: 300px;
+      min-height: 100%;
+    }
+
+    .widgetBtnContainer{
+      width: 100%;
+      height: auto;
+    }
+  
+    .BEform {
+      position: relative;
+      width: 304px;
+    }
+
+    .widgetInput{
+      width: 19rem;
+    }
+
+    .asterisque{
+      margin-top: 5rem;
+      font-size: 12px;
+    }
+  
+    .slide_viewer {
+      height: 50vh;
+      width: 100vw;
+    }
+  
+    .slide {
+      height: auto;
+      bottom: 0;
+    }
+  
+    .titleRcol {
+      position: relative;
+      top: -67vh;
+    }
+  
+    .mapSection {
+      flex-flow: column nowrap;
+      justify-content: flex-start;
+      height: 100vh;
+    }
+  
+    .plan {
+      width: 100vw;
+      display: flex;
+    }
+  
+    .plan img {
+      object-fit: cover;
+      object-position: center;
+    }
+  
+    .welcomeRighttCol {
+      width: 100vw;
+      margin: 0 auto;
+    }
+  
+    .welcomeLeftCol {
+      max-height: 50%;
+      margin: 0 auto;
+    }
+  
+    .addressCard {
+      width: 50vw;
+      margin: 2.5rem auto;
+      max-height: 25%;
+    }
+  
+    .addressBlockContent {
+      position: relative;
+      bottom: 11rem;
+    }
+  
+    .textColumn {
+      margin: 2rem 10rem;
+      font-size: 12px;
+    }
+  
+    .whiteTitle {
+      font-size: 1.25rem;
+      line-height: 1.2rem;
+    }
+  
+    .whiteText {
+      font-size: 0.8rem;
+    }
+  
+    #gallery > .row {
+      flex-flow: column nowrap;
+    }
+  
+    .incentive {
+      margin-top: -12rem;
+    }
+  
+    .incentive > .svg-container {
+      transform: scale(0.8);
+    }
+  
+    .incentiveButton {
+      margin-top: -4.5rem;
+    }
+  
+    #calendar {
+      margin-top: 15rem;
+    }
+  
+    .optionLeftCol {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .optionShape {
+      transform: scale(1.25);
+    }
+  
+    .newsRightCol {
+      padding: 1.5rem 2rem;
+    }
+  
+    .blogButton {
+      padding-top: 2.5rem;
+    }
+  
+    #contact > .row {
+      flex-flow: column nowrap;
+    }
+  
+    .contactInfos {
+      display: flex;
+      flex-flow: row nowrap;
+    }
+  }*/
