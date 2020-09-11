@@ -36,7 +36,6 @@
     .headerWidget{
       height: 100vh;
     }
-  
     .widgetTitle {
       font-size: 2.25rem;
       margin: -5rem 0 0 0;
@@ -91,6 +90,7 @@
     }
   
     .slide_viewer {
+      margin: 0;
       height: 50vh;
       width: 100vw;
     }

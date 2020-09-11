@@ -362,9 +362,8 @@ h4 {
   justify-content: center;
 }
 
-.widgetShape {
-  width: auto;
-  height: 60%;
+.widgetBackground{
+  width: 60vw;
 }
 
 .BEform {
