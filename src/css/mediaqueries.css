@@ -88,13 +88,10 @@
     height: 12.5rem;
     font-size: 4.5rem;
   }
- 
+
   .widgetInput > option {
     font-size: 4.5rem !important;
   }
-
-
-  
 
   /*.form-row>.col-auto{
   

@@ -59,25 +59,55 @@ svg {
   overflow: visible;
 }
 
-.widgetBackground {
+.widgetShape {
+  min-width: 1000px;
+}
+div#widgetShape.svg-container.backgroundShape {
+  flex-shrink: 0;
+  flex-grow: 1;
+  flex-basis: 1000px;
+}
+
+.widget_background {
+  fill: url(#winter);
+  filter: drop-shadow(0 16px 24px rgba(0, 0, 0, 0.14))
+    drop-shadow(0 9px 46px rgba(0, 0, 0, 0.12))
+    drop-shadow(0 11px 15px rgba(0, 0, 0, 0.2));
+}
+
+.form_container {
+  position: absolute;
+}
+
+.widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.widget_background {
+  position: relative;
+}
+
+/*.widgetBackground {
   fill: url(#winter);
   filter: drop-shadow(0 16px 24px rgba(0, 0, 0, 0.14))
   drop-shadow(0 9px 46px rgba(0, 0, 0, 0.12))
-  drop-shadow(0 11px 15px rgba(0, 0, 0, 0.2));
-}
+  drop-shadow(0 11px 15px rgba(0, 0, 0, 0.2));}*/
 
 .addressBackground {
   fill: url(#winter);
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.14))
-  drop-shadow(0 9px 4px rgba(0, 0, 0, 0.12))
-  drop-shadow(0 3px 5px rgba(0, 0, 0, 0.2));
+    drop-shadow(0 9px 4px rgba(0, 0, 0, 0.12))
+    drop-shadow(0 3px 5px rgba(0, 0, 0, 0.2));
 }
 
 .svgShape {
   fill: url(#winter);
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.14))
-  drop-shadow(0 9px 4px rgba(0, 0, 0, 0.12))
-  drop-shadow(0 3px 5px rgba(0, 0, 0, 0.2));}
+    drop-shadow(0 9px 4px rgba(0, 0, 0, 0.12))
+    drop-shadow(0 3px 5px rgba(0, 0, 0, 0.2));
+}
 
 .nowrap {
   flex-wrap: nowrap;
@@ -90,7 +120,7 @@ svg {
 h2,
 h3 {
   font-family: "Eczar";
-  font-size:3rem;
+  font-size: 3rem;
   font-weight: bold;
   color: rgb(0, 87, 155);
   text-shadow: 0 1px 0.94px rgba(0, 0, 0, 0.24), 0 0 1.96px rgba(0, 0, 0, 0.16);
@@ -376,6 +406,41 @@ h4 {
   padding-top: 5rem;
 }
 
+.form-inline {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.date-picker {
+  flex-basis: 40%;
+  flex-grow: 0;
+}
+.date-picker > .form-control {
+  box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.2),
+    inset 0 4px 5px 0 rgba(0, 0, 0, 0.12), inset 0 2px 4px 0 rgba(0, 0, 0, 0.14);
+  font-family: "Work Sans";
+  font-size: 1.15rem;
+  font-weight: 300;
+  height: 4.57rem;
+  border: none;
+  border-radius: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.stay-duration {
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.form_btn {
+  flex: 1 1 auto;
+}
+
 .widgetInput {
   font-family: "Work Sans";
   font-size: 1.15rem;
@@ -389,8 +454,9 @@ h4 {
     inset 0 4px 5px 0 rgba(0, 0, 0, 0.12), inset 0 2px 4px 0 rgba(0, 0, 0, 0.14);
 }
 
-.backgroundShape{
-transform: scale(1);}
+.backgroundShape {
+  transform: scale(1);
+}
 
 .BEform .input-group-text {
   width: 3.25rem;

@@ -18,9 +18,9 @@
     <!--<link rel="stylesheet" href="dist/css/style_darker.css" />-->
     <!--<link rel="stylesheet" href="/src/css/style_lavender.css" />-->
     <link rel="stylesheet" href="/src/css/style_winter.css" />
-    <link rel="stylesheet" href="/src/css/desktop.css">
-    <link rel="stylesheet" href="/src/css/ipad_portrait.css">
-    <link rel="stylesheet" href="/src/css/ipad_landscape.css">
+    <link rel="stylesheet" href="/src/css/desktop.css" />
+    <link rel="stylesheet" href="/src/css/ipad_portrait.css" />
+    <link rel="stylesheet" href="/src/css/ipad_landscape.css" />
     <!--<link rel="stylesheet" href="/src/css/mediaqueries.css" />-->
   </head>
 
@@ -58,11 +58,6 @@
                     >Offres Spéciales</a
                   >
                 </li>
-                <!--<li class="nav-item navElement">
-                  <a class="" href="#">
-                    <span class="navLogo"></span>
-                  </a>
-                </li>-->
                 <li class="nav-item navElement">
                   <a class="nav-link navButton" href="#">Contact</a>
                 </li>
@@ -105,66 +100,52 @@
     <section class="headerWidget container-fluid">
       <div class="widgetBE">
         <div id="widgetShape" class="svg-container backgroundShape">
-          <!--SVG SHAPE-->
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="widgetBackground"
-            viewBox="-100 -100 1280 540"
-            filterUnits="userSpaceOnUse"
-          >
-            <defs />
+          <div class="widget">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="widget_background"
+              viewBox="-100 -100 1280 540"
+              filterUnits="userSpaceOnUse"
+            >
+              <defs />
+              <path
+                fill="url"
+                fill-rule="evenodd"
+                d="M30 0h1020c16.568 0 30 13.431 30 30v254c0 16.568-13.432 30-30 30H30c-16.569 0-30-13.432-30-30V30C0 13.431 13.431 0 30 0z"
+              />
+            </svg>
 
-            <path
-              fill="url"
-              fill-rule="evenodd"
-              d="M30 0h1020c16.568 0 30 13.431 30 30v254c0 16.568-13.432 30-30 30H30c-16.569 0-30-13.432-30-30V30C0 13.431 13.431 0 30 0z"
-            />
-          </svg>
-        </div>
-        <div class="BEform">
-          <form>
-            <h2 class="widgetTitle">Réservez votre séjour :</h2>
-            <div class="form-row">
-              <div class="col-auto form-group">
-                <div class="input-group mb-2">
+            <div class="form_container">
+              <form class="form-inline">
+                <div class="my-2 mr-2 date-picker input-group">
                   <div class="input-group-prepend">
                     <div class="input-group-text">
-                      <i class="fa fa-calendar-check"></i>
+                      <i class="fa fa-calendar"></i>
                     </div>
                   </div>
                   <input
                     type="text"
-                    class="widgetInput form-control"
-                    id="inlineFormInputGroup"
-                    placeholder="04/08/2021"
+                    class="form-control"
+                    id="inlineFormInputGroupUsername2"
+                    placeholder="04/08/2020"
                   />
                 </div>
-              </div>
-              <div class="col-auto form-group">
-                <select class="widgetInput form-control custom-select mb-2">
-                  <option selected>1 nuit(s)</option>
-                  <option value="1">2 nuit(s</option>
-                  <option value="2">3 nuit(s</option>
-                  <option value="3">4 nuit(s</option>
-                </select>
-              </div>
-              <div class="col-auto widgetBtnContainer form-group">
-                <button
-                  type="submit"
-                  class="btn widgetButton tealButton mb-2"
-                >
-                  chercher
-                </button>
-              </div>
+                <div class="stay-duration my-2 mr-2 input-group">
+                  <select class="custom-select" id="inlineFormCustomSelectPref">
+                    <option selected>1 nuit(s)</option>
+                    <option value="1">2 nuit(s)</option>
+                    <option value="2">3 nuit(s)</option>
+                    <option value="3">4 nuit(s)</option>
+                  </select>
+                </div>
+                <div class="my-2 mr-2">
+                  <button type="submit" class="form_btn btn btn-primary">
+                    Allez Zou !
+                  </button>
+                </div>
+              </form>
             </div>
-          </form>
-          <p class="asterisque">
-            Réservation 100% sécurisée, Meilleurs Prix Garantis, Confirmation
-            Immédiate
-            <i class="fab fa-cc-stripe"></i>
-            <i class="fab fa-cc-visa"></i>
-            <i class="fab fa-cc-mastercard"></i>
-          </p>
+          </div>
         </div>
       </div>
     </section>
@@ -660,8 +641,8 @@
                     d="M45 17H3a2 2 0 00-2 2v24a2 2 0 002 2h42a2 2 0 002-2V19a2 2 0 00-2-2zM31 39a2 2 0 01-2 2h-3v-6h-4v6h-3a2 2 0 01-2-2V28l7-7 7 7z"
                   />
                   <circle class="secondary" cx="24" cy="5" r="4" />
-                  <path class="secondary"" d="M17 28v11a2 2 0 002 2h3v-6h4v6h3a2
-                  2 0 002-2V28l-7-7z" data-name="primary"/>
+                  <path class="secondary"" d=" M17 28v11a2 2 0 002
+                  2h3v-6h4v6h3a2 2 0 002-2V28l-7-7z" data-name="primary" />
                   <path
                     class="stroke"
                     d="M45 16h-7.59l-8.7-8.71a1 1 0 00-.22-.14A4.86 4.86 0 0029 5a5 5 0 00-10 0 4.86 4.86 0 00.51 2.15 1 1 0 00-.22.14L10.59 16H3a3 3 0 00-3 3v24a3 3 0 003 3h42a3 3 0 003-3V19a3 3 0 00-3-3zM24 2a3 3 0 11-3 3 3 3 0 013-3zm22 41a1 1 0 01-1 1H3a1 1 0 01-1-1V19a1 1 0 011-1h8a1 1 0 00.71-.29l9-9a4.91 4.91 0 006.62 0l9 9A1 1 0 0037 18h8a1 1 0 011 1z"
@@ -839,7 +820,9 @@
         </div>
       </section>
 
-      <footer><p ="demo"></p></footer>
+      <footer>
+        <p ="demo"></p>
+      </footer>
     </div>
 
     <!--SVG RADIENTS-->

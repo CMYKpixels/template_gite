@@ -1,4 +1,4 @@
-/*Desktop*/
+/*Desktop==>1024px*/
 @media only screen and (max-width: 1024px) {
     h2,
     h3 {
@@ -193,7 +193,7 @@
     }
   }
   
-  /*Desktop@1024*/
+  /*Desktop==>1280px*/
   @media only screen and (max-width: 1280px) {
     h2,
     h3 {
