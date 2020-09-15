@@ -1,3 +1,145 @@
+
+/*Desktop==>1280px*/
+@media only screen and (max-width: 1280px) {
+  h2,
+  h3 {
+    font-family: "Eczar";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(0, 87, 155);
+    text-shadow: 0 1px 0.94px rgba(0, 0, 0, 0.24),
+      0 0 1.96px rgba(0, 0, 0, 0.16);
+  }
+
+  h4 {
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  nav {
+    background: rgb(33, 33, 33);
+    background: rgba(0, 0, 0, 0.15);
+  }
+
+  #calendar {
+    margin-top: 7rem;
+  }
+
+  #services {
+    margin-top: 13.5rem;
+  }
+
+  #options {
+    margin-top: 10rem;
+  }
+
+  .form_container{
+    margin-top: 4.28rem;
+  }
+
+  .widgetTitle {
+    font-size: 2.25rem;
+    margin: -5rem 0 0 0;
+  }
+
+  .widgetInput {
+    width: 10rem;
+    height: 3.75rem;
+  }
+
+  .whiteTitle {
+    font-size: 1.2rem;
+    line-height: 1rem;
+  }
+
+  .whiteText {
+    font-size: 0.75rem;
+    line-height: 0.8rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .textColumn {
+    padding: 2rem 2rem 1rem 2rem;
+    font-size: 12px;
+  }
+
+  .incentiveText {
+    font-size: 0.75rem;
+  }
+
+  .incentiveText h3 {
+    font-size: 1.5rem;
+  }
+
+  .purpleButton {
+    font-size: 1.15rem;
+    border: solid 2.5px transparent;
+    padding: 0.85rem 3.25rem;
+    letter-spacing: 0.05;
+  }
+
+  .purpleButton:hover {
+    font-size: 1.15rem;
+    border: solid 2.5px transparent;
+    padding: 0.85rem 3.25rem;
+    letter-spacing: 0;
+  }
+
+  .slide_viewer {
+    height: 65vh;
+  }
+
+  .previous_btn,
+  .next_btn {
+    transform: scale(0.85);
+  }
+
+  .incentive {
+    margin-top: 4.25rem;
+  }
+
+  .optionPrice {
+    width: 7.25rem;
+    height: 7.25rem;
+    border-radius: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .services .col {
+    padding-left: 8rem;
+  }
+
+  .services li {
+    font-size: 0.95rem;
+  }
+
+  .price {
+    padding-top: 0.75rem;
+    font-size: 3.5rem;
+  }
+
+  .optionLabel {
+    font-size: 2.5rem;
+    margin: 2rem 0 6.75rem 0;
+  }
+
+  .newsRightCol {
+    padding: 2rem 3.5rem 0 3.5rem;
+  }
+
+  .blog {
+    font-size: 12px;
+  }
+
+  .blogButton {
+    padding-top: 2rem;
+  }
+}
 /*Desktop==>1024px*/
 @media only screen and (max-width: 1024px) {
     h2,
@@ -34,17 +176,18 @@
     }
 
     .headerWidget{
-      height: 100vh;
+      height: 100%;
+      margin-top: -20rem;
+      margin-bottom: 0;
     }
+
     .widgetTitle {
       font-size: 2.25rem;
       margin: -5rem 0 0 0;
     }
-  
-    .widgetInput,
-    .input-group > .form-control {
-      width: 8rem;
-      height: 3.75rem;
+
+    .language{
+      z-index: 1;
     }
   
     .asterisque {
@@ -62,9 +205,9 @@
       margin-bottom: 0.25rem;
     }
   
-    .textColumn {
-      padding: 2rem 2rem 1rem 2rem;
-      font-size: 10px;
+    .textColumn{
+      font-size: 12px;
+      padding: 0;
     }
   
     .incentiveText {
@@ -193,144 +336,14 @@
     }
   }
   
-  /*Desktop==>1280px*/
-  @media only screen and (max-width: 1280px) {
-    h2,
-    h3 {
-      font-family: "Eczar";
-      font-size: 2.5rem;
-      font-weight: bold;
-      color: rgb(0, 87, 155);
-      text-shadow: 0 1px 0.94px rgba(0, 0, 0, 0.24),
-        0 0 1.96px rgba(0, 0, 0, 0.16);
-    }
-  
-    h4 {
-      font-family: "Work Sans";
-      font-size: 2rem;
-      font-weight: 500;
-    }
-  
-    nav {
-      background: rgb(33, 33, 33);
-      background: rgba(0, 0, 0, 0.15);
-    }
-  
-    #calendar {
-      margin-top: 7rem;
-    }
-  
-    #services {
-      margin-top: 13.5rem;
-    }
-  
-    #options {
-      margin-top: 10rem;
-    }
-  
-    .widgetTitle {
-      font-size: 2.25rem;
-      margin: -5rem 0 0 0;
-    }
-  
-    .widgetInput {
-      width: 10rem;
-      height: 3.75rem;
-    }
-  
-    .whiteTitle {
-      font-size: 1.2rem;
-      line-height: 1rem;
-    }
-  
-    .whiteText {
-      font-size: 0.75rem;
-      line-height: 0.8rem;
-      margin-bottom: 0.25rem;
-    }
-  
-    .textColumn {
-      padding: 2rem 2rem 1rem 2rem;
-      font-size: 12px;
-    }
-  
-    .incentiveText {
-      font-size: 0.75rem;
-    }
-  
-    .incentiveText h3 {
-      font-size: 1.5rem;
-    }
-  
-    .purpleButton {
-      font-size: 1.15rem;
-      border: solid 2.5px transparent;
-      padding: 0.85rem 3.25rem;
-      letter-spacing: 0.05;
-    }
-  
-    .purpleButton:hover {
-      font-size: 1.15rem;
-      border: solid 2.5px transparent;
-      padding: 0.85rem 3.25rem;
-      letter-spacing: 0;
-    }
-  
-    .slide_viewer {
-      height: 65vh;
-    }
-  
-    .previous_btn,
-    .next_btn {
-      transform: scale(0.85);
-    }
-  
-    .incentive {
-      margin-top: 4.25rem;
-    }
-  
-    .optionPrice {
-      width: 7.25rem;
-      height: 7.25rem;
-      border-radius: 100%;
-      display: flex;
-      flex-flow: row nowrap;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto;
-    }
-  
-    .services .col {
-      padding-left: 8rem;
-    }
-  
-    .services li {
-      font-size: 0.95rem;
-    }
-  
-    .price {
-      padding-top: 0.75rem;
-      font-size: 3.5rem;
-    }
-  
-    .optionLabel {
-      font-size: 2.5rem;
-      margin: 2rem 0 6.75rem 0;
-    }
-  
-    .newsRightCol {
-      padding: 2rem 3.5rem 0 3.5rem;
-    }
-  
-    .blog {
-      font-size: 12px;
-    }
-  
-    .blogButton {
-      padding-top: 2rem;
-    }
-  }
-  
+
+
+
+
+
+
+
+
 
   /*@media only screen and (max-width : 1024px){
     nav {
