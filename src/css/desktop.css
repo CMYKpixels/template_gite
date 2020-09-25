@@ -200,14 +200,16 @@
     }
   
     .whiteText {
-      font-size: 0.55rem;
-      line-height: 0.65rem;
+      font-size: 0.75rem;
+      line-height: 0.75rem;
       margin-bottom: 0.25rem;
     }
   
     .textColumn{
       font-size: 12px;
-      padding: 0;
+      padding: 0 20px;
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
     }
   
     .incentiveText {
@@ -234,7 +236,7 @@
   
     .slide_viewer {
       margin: 0;
-      height: 50vh;
+      height: 70vh;
       width: 100vw;
     }
   
@@ -245,10 +247,15 @@
   
     .titleRcol {
       position: relative;
-      top: -72vh;
+      top: -100vh;
     }
   
     .widgetButton {
+      margin: 0.5rem 0 1rem 0 !important;
+      padding: 0.85rem 1.25rem;
+    }
+
+    .widgetButton:hover {
       margin: 0.5rem 0 1rem 0 !important;
       padding: 0.85rem 1.25rem;
     }
@@ -263,15 +270,15 @@
     }
   
     .incentive {
-      margin-top: -8rem;
+      margin-top: -17.5rem;
     }
   
     .incentive > .svg-container {
-      transform: scale(0.8);
+      transform: scale(0.55);
     }
   
     .incentiveButton {
-      margin-top: -3rem;
+      margin-top: -8.5rem;
     }
   
     .incentiveText p {
@@ -316,7 +323,7 @@
     }
   
     .optionShape {
-      transform: scale(1.3);
+      transform: scale(1);
     }
   
     .newsRightCol {
@@ -332,11 +339,36 @@
     }
   
     #news {
-      margin: 8rem auto;
+      margin: 10rem auto;
     }
   }
-  
 
+@media only screen and (min-width: 780px) and (max-width: 1000px){
+  .whiteTitle{
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+}
+  
+@media only screen and (max-width: 768px){
+  .mapSection{
+    flex-flow: column wrap;
+  }
+
+  .addressBlockShape{
+    position: relative;
+    top: -5.5vh;
+    transform: scale(1);
+  }
+
+  .addressCard{
+    margin-top: 0;
+  }
+ 
+  .welcomeLeftColumn{
+    max-height: 100%;
+  }
+}
 
 
 

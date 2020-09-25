@@ -5,11 +5,19 @@
 		}
 	],
 	"settings": {
-		"terminal.integrated.automationShell.linux": "",
-		"terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
-		"terminal.integrated.fontFamily": "Hasklug Nerd Font Mono",
-		"terminal.integrated.fontSize": 12,
-		"terminal.integrated.fontWeight": "200",
-		"terminal.integrated.fontWeightBold": "800"
+		"workbench.colorCustomizations": {
+			"activityBar.background": "#000000",
+			"activityBar.foreground": "#83EC88",
+			"activityBar.inactiveForeground": "#1E5800",
+			"activityBarBadge.foreground": "#000000",
+			"activityBarBadge.background": "#41D6B2",
+			"statusBar.foreground": "#98FFD6",
+			"statusBar.background": "#0E8354",
+			"statusBarItem.hoverBackground": "#175756",
+			"statusBarItem.remoteForeground": "#C4E9FF",
+			"statusBarItem.remoteBackground": "#226C96",
+			"statusBar.debuggingForeground": "#000000",
+			"statusBar.debuggingBackground": "#44B98B"
+		}
 	}
 }
