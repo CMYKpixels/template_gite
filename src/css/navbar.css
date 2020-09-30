@@ -1,0 +1,85 @@
+/* NAVBAR */
+
+.navList li
+{
+    margin: 0 3rem;
+}
+
+.nav-link
+{
+    font-family: 'Eczar';
+    font-size: 1.15rem;
+    line-height: 2.371;
+
+    margin: 2.5rem 0;
+    padding: .4rem 4rem;
+
+    color: rgb(253, 253, 253);
+    border: solid 3.5px transparent;
+    text-shadow: 0 10px 14.1px rgba(0, 0, 0, .24), 0 4px 19.6px rgba(0, 0, 0, .16);
+}
+
+.nav-link:hover
+{
+    font-family: 'Eczar';
+
+    padding: 0 3rem;
+
+    transition: .2s;
+
+    color: white;
+    border: solid 3.5px white;
+    border-radius: 5rem;
+    background-color: white;
+    box-shadow: 2px 1000px 1px rgba(35, 35, 35, .65) inset, 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px 0 rgba(0, 0, 0, .2);
+}
+
+.active > .nav-link
+{
+    background-color: #fff;
+}
+
+.nav-link:focus,
+.nav-link.active
+{
+    border-radius: 5rem;
+    background-image: linear-gradient(315deg, rgb(7, 171, 115) 0%, rgb(29, 233, 182) 100%);
+    background-origin: border-box;
+    box-shadow: 0 7px 9.4px .6px rgba(0, 0, 0, .24), 0 3px 12.74px .26px rgba(0, 0, 0, .16);
+}
+
+.nav-link:visited
+{
+    background-image: linear-gradient(315deg, rgb(153, 41, 234) 0%, rgb(88, 8, 251) 100%);
+    box-shadow: 0 7px 9.4px .6px rgba(0, 0, 0, .24), 0 3px 12.74px .26px rgba(0, 0, 0, .16);
+}
+
+.show > .dropdown-toggle
+{
+    margin: 0;
+
+    border: none;
+    border-radius: 1.5rem 1.5rem 0 0;
+    background-image: linear-gradient(135deg, rgb(7, 171, 115) 0%, rgb(29, 233, 182) 100%);
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.dropdown-toggle:focus,
+.dropdown-toggle:focus-within
+{
+    padding: .25rem 4rem;
+
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: none;
+}
+
+.dropdown-menu
+{
+    margin-top: 0;
+
+    border: none;
+    border-radius: 0 1rem 1rem 1rem;
+    background-image: linear-gradient(45deg, rgb(7, 171, 115) 0%, rgb(29, 233, 182)100%);
+}

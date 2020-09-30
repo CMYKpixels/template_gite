@@ -1,0 +1,171 @@
+.Search_Widget {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2944px;
+  height: 9272px;
+  z-index: 55;
+}
+.Big_Button {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2944px;
+  height: 9272px;
+  z-index: 54;
+}
+.chercher {
+  font-size: 26px;
+  font-family: "Work Sans";
+  color: rgb(1, 87, 155);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 1144.875px;
+  top: 1245.42px;
+  width: 146px;
+  height: 17px;
+  z-index: 53;
+}
+.Button {
+  background-image: -moz-linear-gradient( 135deg, rgb(42,227,252) 0%, rgb(117,248,210) 100%);
+  background-image: -webkit-linear-gradient( 135deg, rgb(42,227,252) 0%, rgb(117,248,210) 100%);
+  background-image: -ms-linear-gradient( 135deg, rgb(42,227,252) 0%, rgb(117,248,210) 100%);
+  box-shadow: 0px 7px 9.4px 0.6px rgba(0, 0, 0, 0.24),0px 3px 12.74px 0.26px rgba(0, 0, 0, 0.16);
+  position: absolute;
+  left: 1145px;
+  top: 1217px;
+  width: 244px;
+  height: 82px;
+  z-index: 52;
+}
+.Réservez_votre_séjour__ {
+  font-size: 14.678px;
+  font-family: "Eczar";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.294;
+  text-align: center;
+  text-shadow: 0px 1px 0.94px rgba(0, 0, 0, 0.24),0px 0px 1.96px rgba(0, 0, 0, 0.16);
+  -moz-transform: matrix( 2.98978058170049,0,0,2.99012273303631,0,0);
+  -webkit-transform: matrix( 2.98978058170049,0,0,2.99012273303631,0,0);
+  -ms-transform: matrix( 2.98978058170049,0,0,2.99012273303631,0,0);
+  position: absolute;
+  left: 719.011px;
+  top: 1192.21px;
+  z-index: 50;
+}
+.inputs {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2944px;
+  height: 9272px;
+  z-index: 49;
+}
+.Nuits {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2944px;
+  height: 9272px;
+  z-index: 44;
+}
+._1_nuits_s_ {
+  font-size: 24px;
+  font-family: "Roboto";
+  color: rgba(134, 147, 158, 0.702);
+  line-height: 0.875;
+  text-align: left;
+  position: absolute;
+  left: 838px;
+  top: 1268.969px;
+  z-index: 43;
+}
+.ic_arrow_down {
+  background-color: rgb(98, 0, 234);
+  opacity: 0.541;
+  position: absolute;
+  left: 1067px;
+  top: 1259px;
+  width: 15px;
+  height: 9px;
+  z-index: 42;
+}
+.Nuits {
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.2),inset 0px 4px 5px 0px rgba(0, 0, 0, 0.12),inset 0px 2px 4px 0px rgba(0, 0, 0, 0.14);
+  position: absolute;
+  left: 814px;
+  top: 1221px;
+  width: 285px;
+  height: 74px;
+  z-index: 41;
+}
+.Calendar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2944px;
+  height: 9272px;
+  z-index: 39;
+}
+.Date {
+  font-size: 24px;
+  font-family: "Roboto";
+  color: rgba(134, 147, 158, 0.702);
+  line-height: 0.875;
+  text-align: left;
+  position: absolute;
+  left: 585.656px;
+  top: 1268.969px;
+  z-index: 38;
+}
+.Date {
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.2),inset 0px 4px 5px 0px rgba(0, 0, 0, 0.12),inset 0px 2px 4px 0px rgba(0, 0, 0, 0.14);
+  position: absolute;
+  left: 555px;
+  top: 1221px;
+  width: 236px;
+  height: 74px;
+  z-index: 36;
+}
+._Réservation_100__sécurisée__Meilleurs_Prix_Gar {
+  font-size: 12px;
+  font-family: "Myriad Pro";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 1px 0.94px rgba(0, 0, 0, 0.24),0px 0px 0.98px rgba(0, 0, 0, 0.16);
+  -moz-transform: matrix( 1.44623318310714,0,0,1.45625826304814,0,0);
+  -webkit-transform: matrix( 1.44623318310714,0,0,1.45625826304814,0,0);
+  -ms-transform: matrix( 1.44623318310714,0,0,1.45625826304814,0,0);
+  position: absolute;
+  left: 636.064px;
+  top: 1305.149px;
+  z-index: 33;
+}
+.Payment_logo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2944px;
+  height: 9272px;
+  z-index: 32;
+}
+.Rectangle_arrondi_2 {
+  border-radius: 30px;
+  background-image: -moz-linear-gradient( 135deg, rgb(71,96,255) 0%, rgb(13,204,255) 100%);
+  background-image: -webkit-linear-gradient( 135deg, rgb(71,96,255) 0%, rgb(13,204,255) 100%);
+  background-image: -ms-linear-gradient( 135deg, rgb(71,96,255) 0%, rgb(13,204,255) 100%);
+  box-shadow: 0px 20px 28.2px 1.8px rgba(0, 0, 0, 0.24),0px 8px 40.18px 0.82px rgba(0, 0, 0, 0.16);
+  position: absolute;
+  left: 431px;
+  top: 1089px;
+  width: 1080px;
+  height: 314px;
+  z-index: 27;
+}

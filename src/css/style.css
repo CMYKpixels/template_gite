@@ -1,0 +1,921 @@
+  /* @media (min-device-width: 1280px)
+{ */
+/* COMMONS */
+
+body
+{
+    font-size: 14px;
+}
+
+.section
+{
+    margin: 6rem 0 6rem 0;
+}
+
+.resetPadding
+{
+    padding: 0;
+}
+
+.resetMargin
+{
+    margin: 0;
+}
+
+.resetBoth
+{
+    margin: 0;
+    padding: 0;
+}
+
+.nowrap
+{
+    flex-wrap: nowrap;
+}
+
+.alignRight
+{
+    text-align: right;
+}
+
+h2,
+h3
+{
+    font-family: 'Eczar';
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1.1;
+
+    color: teal;
+    text-shadow: 0 1px .94px rgba(0, 0, 0, .24), 0 0 1.96px rgba(0, 0, 0, .16);
+}
+
+h4
+{
+    font-family: 'Work Sans';
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* BUTTONS */
+
+.tealButton
+{
+    font-family: 'Eczar';
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    height: 64px;
+    padding: .25rem 4rem;
+
+    text-decoration: none;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+
+    color: rgb(0, 255, 255);
+    border: solid 3.5px transparent;
+    border-radius: 5rem;
+    background-image: linear-gradient(rgba(35, 35, 35, 0), rgba(255, 255, 255, 0)), linear-gradient(-25deg, rgb(20, 115, 120), rgb(0, 255, 255));
+    background-origin: border-box;
+    box-shadow: 2px 1000px 1px rgba(35, 35, 35, .65) inset, 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px 0 rgba(0, 0, 0, .2);
+}
+
+.tealButton:hover
+{
+    font-family: 'Eczar';
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    height: 64px;
+    padding: .25rem 4rem;
+
+    text-decoration: none;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+
+    color: white;
+    border: solid 3.5px transparent;
+    border-radius: 5rem;
+    background-image: linear-gradient(135deg, rgb(7, 171, 115) 0%, rgb(29, 233, 182) 100%);
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12), 0 1px 3px 0 rgba(0, 0, 0, .2);
+    text-shadow: 0 1px 1px 0 rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
+}
+
+.purpleButton
+{
+    font-family: 'Work Sans';
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    height: 64px;
+    padding: .25rem 4rem;
+
+    text-decoration: none;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+
+    color: white;
+    border: solid 5px transparent;
+    border-radius: 5rem;
+    background-image: linear-gradient(135deg, rgb(153, 41, 234) 0%, rgb(88, 8, 251) 100%);
+    background-origin: border-box;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px 0 rgba(0, 0, 0, .2);
+    text-shadow: 0 1px 1px 0 rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
+}
+
+.purpleButton:hover
+{
+    font-family: 'Work Sans';
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    padding: .25rem 4rem;
+
+    transition: all .4s ease;
+    letter-spacing: -.05rem;
+    text-transform: uppercase;
+
+    color: white;
+    border: solid 5px transparent;
+    border-radius: 5rem;
+    background-image: linear-gradient(135deg, rgb(153, 41, 234) 0%, rgb(88, 8, 251) 100%);
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
+    text-shadow: 0 1px 1px 0 rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
+}
+
+/* HEADER */
+
+.titleRcol
+{
+    margin-right: 10rem;
+}
+
+.header
+{
+    overflow: hidden;
+
+    height: 100vh;
+
+    background-image: url('../img/BKG_IMG.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.gradient
+{
+    width: auto;
+    height: 100vh;
+
+    background: linear-gradient(rgba(0, 0, 0, .65) 0%, rgba(0, 0, 0, 0) 16%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, .65) 80%, rgba(255, 255, 255, 1) 100%);
+}
+
+
+
+.navButton
+{
+    font-family: 'Eczar';
+    font-size: 1.15rem;
+    line-height: 2.371;
+
+    width: 10.7rem;
+    height: 3.57rem;
+    margin: 0rem 2.15rem !important;
+    padding: .25rem 1rem 0 1rem !important;
+
+    text-align: center;
+
+    color: white !important;
+    border: solid 3.5px transparent;
+    text-shadow: 0 10px 14.1px rgba(0, 0, 0, .24), 0 4px 19.6px rgba(0, 0, 0, .16);
+}
+
+/* .navButton:hover{
+  font-family: 'Eczar';
+
+  transition: .5s;
+
+  padding: .25rem 1rem 0 1rem !important;
+
+  border: solid 3.5px white;
+  border-radius: 5rem;
+  background-color: white;
+  box-shadow: 2px 1000px 1px rgba(35, 35, 35, .65) inset, 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px 0 rgba(0, 0, 0, .2);
+} */
+
+.navButton:focus,
+.navButton:hover
+{
+    border-radius: 5rem;
+    background-image: linear-gradient(315deg, rgb(7, 171, 115) 0%, rgb(29, 233, 182) 100%);
+    background-origin: border-box;
+    box-shadow: 0 7px 9.4px .6px rgba(0, 0, 0, .24), 0 3px 12.74px .26px rgba(0, 0, 0, .16);
+}
+
+.navButton:focus
+{
+    border: solid 3.5px white;
+}
+
+.navButtonLeft
+{
+    margin-left: 0 !important;
+}
+
+
+.navButtonRight
+{
+    margin-Right: 0 !important;
+}
+
+.show > .navButtonLeft
+{
+    transition: all 500ms ease;
+
+    border: solid 3.5px transparent;
+    border-radius: 1rem 1rem 0 0;
+    background-image: linear-gradient(to top , rgb(29, 233, 182) 30%, rgb(7, 171, 115) 90%);
+    background-origin: border-box;
+    box-shadow: none;
+}
+
+.dropdownContent
+{
+    z-index: -5;
+
+    display: block;
+    visibility: hidden;
+
+    margin-top: -.17rem;
+
+    transition: 500ms ease all;
+    transform: translate3d(-10rem , -10rem, 20% );opacity: 0;
+    border: transparent;
+    border-radius: 0 1rem 1rem 1rem;
+    background-image: linear-gradient(to top left, rgb(7, 171, 115) 0%, rgb(29, 233, 182) 45%);
+    background-origin: border-box;
+    box-shadow: transparent;
+}
+
+.dropdownContent.show
+{
+    z-index: 1;
+
+    display: block;
+    visibility: visible;
+
+    transition: 500ms ease all;
+    transform: translateY(0px);
+
+    opacity: 1;
+}
+
+.widgetTitle
+{
+    font-family: 'Eczar';
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.5;
+
+    margin: -120px 0 30px 0;
+
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1px .94px rgba(0, 0, 0, .24), 0 0 1.96px rgba(0, 0, 0, .16);
+}
+
+.widgetBE
+{
+    display: flex;
+
+    margin: -20rem 0 0 0;
+
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.widgetShape
+{
+    width: auto;
+    height: 60%;
+}
+
+.BEform
+{
+    position: absolute;
+
+    padding-top: 5rem;
+}
+
+.asterisque
+{
+    font-family: 'Work Sans';
+    font-size: 13.5px;
+    font-weight: 400;
+    line-height: 1.2;
+
+    text-align: left;
+
+    color: white;
+    text-shadow: 0 1px .94px rgba(0, 0, 0, .24), 0 0 .98px rgba(0, 0, 0, .16);
+}
+
+.widgetInput
+{
+    font-family: 'Work Sans';
+    font-size: 1.15rem;
+    font-weight: 300;
+
+    width: 280px;
+    height: 64px;
+
+    border: none;
+    border-radius: 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .2), inset 0 4px 5px 0 rgba(0, 0, 0, .12), inset 0 2px 4px 0 rgba(0, 0, 0, .14);
+}
+
+.BEform .input-group-text
+{
+    width: 3.25rem;
+
+    border: none;
+}
+
+.BEform .input-group-text i
+{
+    font-size: 1.75rem;
+
+    color: rgb(113, 93, 211);
+}
+
+.BEform .form-control
+{
+    border: none;
+}
+
+
+
+.mapSection
+{
+    margin: 0;
+    padding: 0;
+}
+
+.textColumn
+{
+    padding: 0 5rem 2rem 5rem;
+    ;
+}
+
+
+.addressBlockContent
+{
+    position: absolute;
+
+    display: flex;
+
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.avatar
+{
+    flex-basis: 33%;
+}
+
+.svg-container
+{
+    overflow: hidden;
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+.whiteTitle
+{
+    font-family: 'eczar';
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+
+    color: white;
+}
+
+.whiteText
+{
+    font-family: 'Work Sans';
+    line-height: 1.1rem;
+
+    color: white;
+}
+
+.mapButton
+{
+    position: relative;
+
+    justify-content: center;
+}
+
+.mapButton .purpleButton
+{
+    position: absolute;
+}
+
+.incentive
+{
+    position: relative;
+
+    display: flex;
+
+    text-align: right;
+
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.incentiveText
+{
+    font-family: 'Work Sans';
+    font-size: 1em;
+    font-weight: 400;
+
+    position: absolute;
+
+    display: flex;
+
+    text-align: right;
+
+    color: white;
+    text-shadow: 0 2.5px 3.5px rgba(0, 0, 0, .24), 0 .75px 1.75px rgba(0, 0, 0, .16);
+
+    align-items: flex-end;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.incentiveText h3
+{
+    font-family: 'Eczar';
+    font-size: 2.15em;
+    font-weight: 600;
+
+    color: white;
+}
+
+.incentiveButton
+{
+    position: relative;
+
+    width: 100%;
+
+    justify-content: center;
+}
+
+.incentiveButton .purpleButton
+{
+    position: absolute;
+}
+
+.marginCenter
+{
+    margin: 0 auto;
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: column;
+
+    align-content: center;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+footer
+{
+    height: 120px;
+    margin-top: 15rem;
+
+    background-color: teal;
+}
+
+#wrapHome
+{
+    position: relative;
+
+    max-width: 100%;
+
+    background-image: url('../img/svg/backgroundShapes.svg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: contain;
+}
+
+.slider
+{
+    position: relative;
+}
+
+.slide_viewer
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 55vw;
+    height: 85vh;
+}
+
+.slide_group
+{
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+}
+
+.slide
+{
+    position: absolute;
+
+    display: none;
+
+    width: 100%;
+    height: 100%;
+}
+
+.slide:first-child
+{
+    display: block;
+}
+
+.slide img
+{
+    width: auto;
+    height: 100%;
+}
+
+.slide_buttons
+{
+    right: 0;
+    left: 0;
+
+    text-align: center;
+}
+
+a.slide_btn
+{
+    font-size: 42px;
+
+    margin: 0 .175em;
+
+    transition: all .4s ease-in-out;
+
+    color: #474544;
+}
+
+.slide_btn.active,
+.slide_btn:hover
+{
+    cursor: pointer;
+
+    color: #428cc6;
+}
+
+.directional_nav
+{
+    position: absolute;
+    top: 0;
+
+    display: flex;
+
+    width: 100%;
+
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+.previous_btn,
+.next_btn
+{
+    cursor: pointer;
+    transition: opacity .4s ease-in-out;
+
+    opacity: .5;
+    /* width: 65px; */
+    /* height: 65px; */
+}
+
+.previous_btn:hover,
+.next_btn:hover
+{
+    opacity: 1;
+}
+
+#gallery
+{
+    margin-top: 10rem;
+}
+
+#news
+{
+    margin: 10rem auto;
+}
+
+#calendar,
+#services,
+#Options,
+#contact
+{
+    margin: 10rem 0;
+}
+
+.addressBlockShape
+{
+    overflow: hidden;
+
+    width: 100%;
+
+    transform: scale(90%);
+}
+
+#options h2,
+#services h2,
+#calendar h2
+{
+    margin-bottom: 5rem;
+}
+
+#optionsImg
+{
+    margin: auto;
+}
+
+contacttitle
+{
+    margin-bottom: 15rem;
+}
+
+#services
+{
+    margin-top: 20rem;
+}
+
+.services
+{
+    font-family: 'Work Sans';
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.923;
+
+    text-align: Left;
+
+    color: rgb(38, 50, 56);
+}
+
+.services ul
+{
+    list-style: none;
+}
+
+.services li::before
+{
+    font-family: 'fontawesome';
+
+    float: left;
+
+    margin-left: -1.5em;
+
+    content: '\f00c';
+
+    color: rgb(88, 8, 251);
+}
+
+.calendarButton
+{
+    position: relative;
+
+    width: 100%;
+    height: auto;
+    margin: 5.625rem auto;
+
+    justify-content: center;
+}
+
+.calendarButton .purpleButton
+{
+    position: absolute;
+
+    justify-content: center;
+}
+
+.content
+{
+    position: relative;
+
+    max-width: 60%;
+    margin: 0 auto;
+
+    flex-wrap: nowrap;
+}
+
+.calendarWidget
+{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.optionPrice
+{
+    font-size: 5rem;
+
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 2.5rem;
+    padding: 2.5rem 0 0 1.875rem;
+
+    color: white;
+    border-radius: 100%;
+    background-image: linear-gradient(135deg, rgb(153, 41, 234) 0%, rgb(88, 8, 251) 100%);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px 0 rgba(0, 0, 0, .2);
+}
+
+.optionText
+{
+    align-items: center;
+}
+
+.optionLabel
+{
+    font-size: 3.5rem;
+
+    margin-left: 1rem;
+
+    color: white;
+}
+
+.optionCard
+{
+    font-family: 'eczar';
+
+    height: 100%;
+
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.optionShape
+{
+    position: absolute;
+}
+
+.optionText
+{
+    display: flex;
+
+    align-content: center;
+    flex-flow: column nowrap;
+}
+
+.optionButton,
+.blogButton
+{
+    display: flex;
+
+    justify-content: center;
+}
+
+#news
+{
+    padding: 0;
+}
+
+#news .row
+{
+    margin: auto 0;
+}
+
+.rightColumn
+{
+    position: relative;
+
+    padding: 3rem 6rem;
+}
+
+.blogButton
+{
+    position: absolute;
+
+    padding-top: 5.625rem;
+}
+
+.form-submit
+{
+    position: absolute;
+
+    margin: auto;
+}
+
+.contactInput
+{
+    font-family: 'Work Sans';
+    font-size: 1.15rem;
+    font-weight: 300;
+
+    width: 100%;
+    height: 58px;
+
+    border: none;
+    border-radius: 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .2), inset 0 4px 5px 0 rgba(0, 0, 0, .06), inset 0 2px 4px 0 rgba(0, 0, 0, .07);
+}
+
+#contact
+{
+    margin: 0 auto;
+}
+
+.contactFormTitle
+{
+    margin-bottom: 3rem;
+}
+
+.addressContact
+{
+    width: 80%;
+    height: 100%;
+
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.social .icons
+{
+    display: flex;
+
+    list-style: none;
+
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.addressContact h2,
+.addressContact p
+{
+    color: rgba(100, 100, 100, .75);
+}
+
+.SVGicons
+{
+    font-size: 5rem;
+
+    display: flex;
+
+    width: 8rem;
+    height: 8rem;
+
+    color: white;
+    border-radius: 100%;
+    background-image: linear-gradient(135deg, rgb(7, 171, 115) 0%, rgb(29, 233, 182) 100%);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px 0 rgba(0, 0, 0, .2);
+
+    align-items: center;
+    justify-content: center;
+}
+
+.icons
+{
+    margin: 0;
+    padding: 0;
+}
+
+.fontIcon .fa-youtube
+{
+    color: #dc3545;
+}
+
+.fontIcon .fa-facebook
+{
+    color: #007bff;
+}
+
+.fontIcon .fa-instagram
+{
+    line-height: 2.5rem;
+
+    width: 2.5rem;
+    height: 2.5rem;
+
+    text-align: center;
+
+    color: #fff;
+    border-radius: .3rem;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+/* } */
