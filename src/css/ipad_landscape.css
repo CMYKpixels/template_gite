@@ -155,6 +155,10 @@
     .dropdownContent {
       display: none;
     }
+
+    .form_container {
+      top: 225px;
+    }
   
     .plan {
       height: 60vh;
@@ -177,6 +181,11 @@
       justify-content: center;
       align-items: center;
       margin: 0 auto;
+    }
+    
+    .optionText {
+      margin-bottom: 210px;
+      top: 40px;
     }
   
     .price {
