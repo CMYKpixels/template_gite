@@ -20,6 +20,10 @@ body {
   padding: 0;
 }
 
+.d-none{
+  display: none;
+}
+
 .primary {
   fill: rgb(66, 165, 245);
 }
@@ -55,7 +59,7 @@ body {
   --color-stop-2: rgb(40, 163, 182);
   --color-stop-3: rgb(60, 36, 50);
 }
-.headerWidget{
+.headerWidget {
   margin-top: -20rem;
 }
 
@@ -80,11 +84,9 @@ svg {
 }
 
 .form_container {
-
   position: absolute;
   width: auto;
 }
-
 
 .widget {
   display: flex;
@@ -296,23 +298,23 @@ h4 {
   );
 }
 
-.language{
+.language {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 2.5vh 1.30vw;
+  padding: 2.5vh 1.3vw;
   width: 100px;
   height: 40px;
   z-index: 1;
 }
 
-.flag{
+.flag {
   width: auto;
   height: 30px;
   padding: 5%;
 }
 
-.dropdown-menu{
+.dropdown-menu {
   position: relative;
   top: 0;
   min-width: auto;
@@ -333,10 +335,9 @@ h4 {
     0 4px 19.6px rgba(0, 0, 0, 0.16);*/
 }
 
-.show>.navbutton,
-.show>.navButton:focus{
+.show > .navbutton,
+.show > .navButton:focus {
   color: darkslategrey !important;
-
 }
 
 .navButton:focus,
@@ -426,9 +427,8 @@ h4 {
   font-weight: bold;
   color: rgb(255, 255, 255);
   text-shadow: 0 1px 0.94px rgba(0, 0, 0, 0.24), 0 0 1.96px rgba(0, 0, 0, 0.16);
-  margin-top: -5.64vh;
-  margin-left: -6.6vw;
-  margin-bottom: 4-vh;;
+  margin-top: -2.5vh;
+  margin-bottom: 2vh;
   font-size: 4rem;
   transition: all 0.3s ease-in-out;
 }
@@ -446,9 +446,9 @@ h4 {
   padding-top: 5rem;
 }
 
-.icon-pre-padding{
+.icon-pre-padding {
   padding-left: 5px;
-  color:#fff;
+  color: #fff;
 }
 
 .form-inline {
@@ -457,12 +457,14 @@ h4 {
   align-items: center;
   justify-content: center;
   margin-bottom: 0;
+  width: 65vw;
 }
 
 .date-picker {
   flex-basis: 33%;
   flex-grow: 0;
   flex-shrink: 0;
+  margin-right: 10px;
 }
 
 .date-picker > .form-control {
@@ -477,17 +479,15 @@ h4 {
   background-color: rgb(255, 255, 255);
 }
 
-
 .stay-duration {
-  flex-basis: auto;
+  flex-basis: 1%;
   flex-grow: 1;
-  flex-shrink: 0;
-
+  flex-shrink: 1;
 }
 
 .stay-duration > .custom-select {
   box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.2),
-  inset 0 4px 5px 0 rgba(0, 0, 0, 0.12), inset 0 2px 4px 0 rgba(0, 0, 0, 0.14);
+    inset 0 4px 5px 0 rgba(0, 0, 0, 0.12), inset 0 2px 4px 0 rgba(0, 0, 0, 0.14);
   border: none;
   font-family: "Work Sans";
   font-size: 1.15rem;
@@ -520,7 +520,7 @@ h4 {
 
 .input-group-prepend .input-group-text {
   border: none;
-  padding: 0.375rem 1.25rem ;
+  padding: 0.375rem 1.25rem;
 }
 
 .input-group-prepend .input-group-text i {
@@ -540,11 +540,11 @@ h4 {
   margin-bottom: 0;
 }
 
-.show>.dropdown-menu{
+.show > .dropdown-menu {
   margin-top: -1px;
 }
 
-#welcome>.title{
+#welcome > .title {
   margin-bottom: 5rem;
 }
 
@@ -554,8 +554,6 @@ h4 {
   overflow: hidden;
 }
 
-
-
 .welcomeLeftCol {
   flex-grow: 8;
   margin: 0 4rem;
@@ -563,6 +561,7 @@ h4 {
 
 .textColumn {
   padding: 5rem 5rem 2rem 5rem;
+  font-size: 1rem;
 }
 
 .addressBlockContent {
@@ -571,11 +570,13 @@ h4 {
   align-items: center;
   flex-flow: row nowrap;
   justify-content: center;
+  margin-bottom: -15px;
 }
 
 .avatar {
   flex-basis: 33%;
 }
+
 
 .svg-container {
   overflow: hidden;
@@ -609,14 +610,17 @@ h4 {
   display: flex;
   text-align: right;
   align-items: center;
-  align-content: flex-end;
   flex-flow: column nowrap;
   justify-content: center;
+  margin-top: 8rem;
+
+
 }
 
 .incentiveText {
   font-family: "Work Sans";
-  font-size: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
   font-weight: 400;
   position: absolute;
   display: flex;
@@ -740,13 +744,12 @@ a.slide_btn {
 }
 
 #gallery {
-  margin-top: 20rem;
+  margin-top: 10rem;
 }
 
 #news {
   margin: 16.5rem auto;
   padding: 0;
-
 }
 
 #calendar {
@@ -854,15 +857,15 @@ a.slide_btn {
 }
 
 .price {
-  padding-top: 0.65rem;
+  padding-top: 0.75rem;
   font-size: 4.75rem;
   color: rgb(0, 87, 155);
 }
 
 .optionLabel {
   color: white;
-  font-size: 3.25rem;
-  margin: 2rem 0 8rem 0;
+  font-size: 3.5rem;
+  margin: 2.75rem 0 10rem 0;
 }
 
 .optionCard {
